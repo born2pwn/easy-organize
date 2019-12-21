@@ -9,7 +9,8 @@ file_types = {
   'articles' : ['.mhtml'],
   'torrents': ['.torrent'],
   'androids': ['.apk'],
-  'shells': ['.batch', '.sh', '.bat', '.ps']
+  'shells': ['.batch', '.sh', '.bat', '.ps'],
+  'windows': ['.exe', '.msi', '.cab'],
 }
 
 def get_folder_by_ext(ext):
