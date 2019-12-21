@@ -9,12 +9,14 @@
 
 ```sh
 git clone https://www.github.com/tinsaetasew/easy-organize.git
+cd easy-organize
+./install.sh
 ```
 
 ## Usage
 
 ```sh
-python3 organize.py [directory-to-organize]
+organize [directory-to-organize]
 ```
 
 ## Author
