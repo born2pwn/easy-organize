@@ -37,7 +37,8 @@ class MyHandler(FileSystemEventHandler):
 try:
   folder_to_track = sys.argv[1]
 except IndexError:
-  folder_to_track = '/home/born2pwn/Downloads' 
+  folder_to_track = os.getcwd()
+             
 event_handler = MyHandler()
 observer = Observer()
 observer.schedule(event_handler, folder_to_track, recursive=True)
