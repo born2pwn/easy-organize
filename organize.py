@@ -2,13 +2,10 @@
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-import mimetypes
 import os
 import pathlib
-import json
 import sys
 import shutil
-import time
 
 from ftypes import get_folder_by_ext
 
